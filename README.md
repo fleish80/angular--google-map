@@ -1,1 +1,1 @@
-# angular--google-map 
+# angular-google-map 
