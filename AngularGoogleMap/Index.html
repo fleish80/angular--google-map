@@ -1,15 +1,18 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" ng-app="googleMapApp">
 <head>
+    <link href="Contents/site.css" rel="stylesheet" />
     <title></title>
 </head>
 <body ng-controller="googleMapCtrl">
 
-    <div>
-        {{title}}
-    </div>
+    <ui-gmap-google-map center='map.center' zoom='map.zoom'></ui-gmap-google-map>
 
+    <script src="Scripts/lodash.min.js"></script>
     <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-simple-logger.js"></script>
+    <script src="Scripts/angular-google-maps.min.js"></script>
+   
     <script src="App.js"></script>
 </body>
 
